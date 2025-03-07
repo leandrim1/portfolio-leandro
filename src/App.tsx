@@ -1,9 +1,11 @@
-import Header from "./components/header";
 import "./Global.css";
+import Header from "./components/Header";
 
 function App() {
   return (
+    <>
     <Header />
+    </>
   );
 }
 
