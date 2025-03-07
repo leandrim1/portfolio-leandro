@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.light-theme {
+    background-color: rgb(255, 255, 255);
+}
+
+.dark-theme {
+    background-color: #13131f;
+    color: rgb(255, 255, 255);
+}
+
+.hidden {
+    transform: translateX(100%); 
+    opacity: 0; 
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+}
+
+.visible {
+    transform: translateX(0); 
+    opacity: 1;
+}
