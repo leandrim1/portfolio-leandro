@@ -1,4 +1,4 @@
-import "./styles/global.css";
+import "./styles/Global.css";
 import Header from "./components/Header";
 
 function App() {
