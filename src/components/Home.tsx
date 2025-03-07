@@ -5,7 +5,7 @@ import gitHub from "../services/GitHub";
 
 const Home = () => {
   return (
-    <section className="h-full">
+    <section className="h-full select-none">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-30">
           <div className="flex w-60 h-60 mt-15 rounded-lg trasition duration-75 hover:scale-110 sm:w-96 sm:h-96">

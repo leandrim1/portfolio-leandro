@@ -19,3 +19,10 @@
     transform: translateX(0); 
     opacity: 1;
 }
+
+.user-select {
+    user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none;
+}
