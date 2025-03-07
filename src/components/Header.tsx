@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header className="w-auto h-20 bg-gray-900 flex border-b-2 border-b-purple-800 ">
       <div className="ml-5 content-center sm:ml-20">
-        <img src=".\public\github.png" alt="" />
+        <img src="/github.png" alt="" />
       </div>
       <div className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="ml-8 sm:ml-0">
