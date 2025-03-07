@@ -19,7 +19,7 @@ const Header = () => {
   }, [theme]);
 
   return (
-    <header className="w-auto h-20 bg-gray-900 flex border-b-2 border-b-purple-800 ">
+    <header className="w-auto h-20 bg-gray-900 flex border-b-2 border-b-purple-800 select-none">
       <div className="ml-5 content-center sm:ml-20">
         <img src="/github.png" alt="" />
       </div>
