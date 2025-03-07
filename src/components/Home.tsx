@@ -10,7 +10,7 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-30">
           <div className="flex w-60 h-60 mt-15 rounded-lg trasition duration-75 hover:scale-110 sm:w-96 sm:h-96">
             <img
-              src=".\public\profile.png"
+              src="/profile.png"
               alt=""
               className="rounded-full bg-purple-800"
             />
@@ -54,7 +54,7 @@ const Home = () => {
         <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
           React.js
           <img
-            src=".\public\react.svg"
+            src="/react.svg"
             alt=""
             className="justify-center pl-8 pt-4"
           />
@@ -62,7 +62,7 @@ const Home = () => {
         <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
           Typescript
           <img
-            src=".\public\typescript.svg"
+            src="/typescript.svg"
             alt=""
             className="justify-center pl-8 pt-4"
           />
@@ -70,7 +70,7 @@ const Home = () => {
         <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
           Javascript
           <img
-            src=".\public\javascript.svg"
+            src="/javascript.svg"
             alt=""
             className="justify-center pl-8 pt-4"
           />
@@ -78,7 +78,7 @@ const Home = () => {
         <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
           Html
           <img
-            src=".\public\html.svg"
+            src="/html.svg"
             alt=""
             className="justify-center pl-8 pt-4"
           />
@@ -88,7 +88,7 @@ const Home = () => {
         <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
           Css
           <img
-            src=".\public\css.svg"
+            src="/css.svg"
             alt=""
             className="justify-center pl-8 pt-4"
           />
@@ -96,7 +96,7 @@ const Home = () => {
         <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
           Material UI
           <img
-            src=".\public\material-ui.svg"
+            src="/material-ui.svg"
             alt=""
             className="justify-center pl-8 pt-4"
           />
@@ -104,7 +104,7 @@ const Home = () => {
         <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
           Visual Studio
           <img
-            src=".\public\visual-studio-code-2019.svg"
+            src="/visual-studio-code-2019.svg"
             alt=""
             className="justify-center pl-8 pt-4"
           />
@@ -112,7 +112,7 @@ const Home = () => {
         <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
           Tailwind Css
           <img
-            src=".\public\tailwindcss.svg"
+            src="/tailwindcss.svg"
             alt=""
             className="justify-center pl-8 pt-4"
           />
@@ -129,7 +129,7 @@ const Home = () => {
       <div className="flex flex-col justify-center place-items-center gap-20 mt-30 mb-40 lg:flex-row ">
         <div className="w-15 h-15 rounded-full border-b-2 bg-gray-900 text-center pt-2 trasition duration-75 hover:scale-110" onClick={gitHub}>
           <img
-            src=".\public\github.png"
+            src="/github.png"
             alt=""
             className="w-11 h-8 justify-center pl-4 pt-1.5"
           />
