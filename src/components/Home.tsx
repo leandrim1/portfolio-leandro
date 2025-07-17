@@ -143,16 +143,16 @@ const Home = () => {
       <h1 className="flex w-23 ml-10 text-2xl font-bold mt-20 border-b-2 pb-1 border-purple-800 sm:ml-30">
         Destaques
       </h1>
-      <div className="flex flex-col justify-center place-items-center gap-10 mt-10 lg:flex-row ">
+      <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
         <div className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-tempo.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60" onClick={getTempo}></div>
       </div>
-      <div className="flex flex-col justify-center place-items-center gap-10 mt-10 lg:flex-row ">
+      <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
         <div className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-Nextcent.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60" onClick={getNextcent}></div>
       </div>
-      <div className="flex flex-col justify-center place-items-center gap-10 mt-10 lg:flex-row ">
+      <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
         <div className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-Ap-is.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60" onClick={getApi}></div>
       </div>
-      <div className="flex flex-col justify-center place-items-center gap-10 mt-10 lg:flex-row ">
+      <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
         <div className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-RickandMorty.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60" onClick={getRickandMorty}></div>
       </div>
       <h1 className="text-center text-3xl font-bold mt-50">Colaboração</h1>
