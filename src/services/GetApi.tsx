@@ -1,5 +1,5 @@
-const getApis = () => {
+const getApi = () => {
     window.open('https://ap-is-livid.vercel.app');
 }
 
-export default getApis;
+export default getApi;

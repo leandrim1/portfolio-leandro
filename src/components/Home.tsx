@@ -3,7 +3,7 @@ import email from "../services/Email";
 import getTempo from "../services/GetTempo";
 import gitHub from "../services/GitHub";
 import getNextcent from "../services/GetNextcent";
-import getApis from "../services/getApis";
+import getApi from "../services/GetApi";
 import getRickandMorty from "../services/GetRickandMorty";
 
 const Home = () => {
@@ -150,7 +150,7 @@ const Home = () => {
         <div className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-Nextcent.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60" onClick={getNextcent}></div>
       </div>
       <div className="flex flex-col justify-center place-items-center gap-10 mt-10 lg:flex-row ">
-        <div className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-Ap-is.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60" onClick={getApis}></div>
+        <div className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-Ap-is.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60" onClick={getApi}></div>
       </div>
       <div className="flex flex-col justify-center place-items-center gap-10 mt-10 lg:flex-row ">
         <div className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-RickandMorty.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60" onClick={getRickandMorty}></div>
