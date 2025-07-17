@@ -270,7 +270,7 @@ const Home = () => {
         </div>
       </div>
       <h1 className="text-center text-3xl font-bold mt-50">Colaboração</h1>
-      <div className="flex flex-col justify-center place-items-center gap-20 mt-30 mb-40 lg:flex-row ">
+      <div className="flex flex-rox justify-center place-items-center gap-10 mt-30 mb-40 lg:gap-20">
         <div
           className="w-15 h-15 rounded-full border-b-2 bg-gray-900 text-center pt-2 trasition duration-75 hover:scale-110"
           onClick={gitHub}
