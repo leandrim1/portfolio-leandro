@@ -118,6 +118,24 @@ const Home = () => {
           />
         </div>
       </div>
+      <div className="flex flex-col justify-center place-items-center gap-10 mt-10 lg:flex-row ">
+        <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
+          MySQL
+          <img
+            src="/mysql.png"
+            alt=""
+            className="justify-center pl-8 pt-4"
+          />
+        </div>
+        <div className="w-30 h-30 rounded-tl-2xl border-b-2 bg-gray-900 text-center text-purple-800 pt-2 trasition duration-75 hover:scale-110">
+          React Native
+          <img
+            src="/react.svg"
+            alt=""
+            className="justify-center pl-8 pt-4"
+          />
+        </div>
+      </div>
       <h1 className="text-center text-3xl font-bold mt-50">Projetos</h1>
       <h1 className="flex w-23 ml-10 text-2xl font-bold mt-20 border-b-2 pb-1 border-purple-800 sm:ml-30">
         Destaques
