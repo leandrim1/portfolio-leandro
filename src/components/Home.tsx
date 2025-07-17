@@ -7,19 +7,21 @@ import getApi from "../services/GetApi";
 import getRickandMorty from "../services/GetRickandMorty";
 import getFakeStore from "../services/GetFakeStore";
 import getSearchUser from "../services/GetSearchUser";
+import Linkedin from "../services/Linkedin";
+import Telefone from "../services/Telefone";
 
 const Home = () => {
   return (
     <section className="h-full select-none">
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-30">
-          <div className="flex w-60 h-60 mt-15 rounded-lg trasition duration-75 hover:scale-110 sm:w-96 sm:h-96">
-            <img
-              src="/profile.png"
-              alt=""
-              className="rounded-full bg-purple-800"
-            />
-          </div>
+            <div className="flex w-100 h-100 mt-15 rounded-full border-10 border-fuchsia-800 relative z-3 trasition duration-75 hover:scale-110">
+              <img
+                src="\profile.png"
+                alt=""
+                className=" rounded-full border-4 border-neutral-800"
+              />
+            </div>
           <div className="text-center xl:text-left mt-25 text-5xl">
             <h1>
               Olá, eu sou o <br />{" "}
@@ -126,49 +128,145 @@ const Home = () => {
         Destaques
       </h1>
       <div className="flex flex-col justify-center gap-5 lg:flex-row">
-        <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
+        <div className="flex flex-col justify-center place-items-center gap-10 mt-10 ">
           <div
             className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-tempo.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60"
             onClick={getTempo}
           ></div>
-          <div>React, TypeScript e CSS</div>
+          <div className="flex flex-row">
+            <img
+              src="/react.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/typescript.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/css.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+          </div>
         </div>
-        <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
+        <div className="flex flex-col justify-center place-items-center gap-10 mt-10 ">
           <div
             className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-Nextcent.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60"
             onClick={getNextcent}
           ></div>
-          <div>React, TypeScript e TailWind CSS</div>
+          <div className="flex flex-row">
+            <img
+              src="/react.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/typescript.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/tailwindcss.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+          </div>
         </div>
-        <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
+        <div className="flex flex-col justify-center place-items-center gap-10 mt-10 ">
           <div
             className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-Ap-is.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60"
             onClick={getApi}
           ></div>
-          <div>React, TypeScript e TailWind CSS</div>
+          <div className="flex flex-row">
+            <img
+              src="/react.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/typescript.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/tailwindcss.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+          </div>
         </div>
-        <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
+        <div className="flex flex-col justify-center place-items-center gap-10 mt-10">
           <div
             className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-RickandMorty.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60"
             onClick={getRickandMorty}
           ></div>
-          <div>React, TypeScript e TailWind CSS</div>
+          <div className="flex flex-row">
+            <img
+              src="/react.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/typescript.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/tailwindcss.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+          </div>
         </div>
       </div>
       <div className="flex flex-col justify-center gap-5 lg:flex-row">
-        <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
+        <div className="flex flex-col justify-center place-items-center gap-10 mt-10">
           <div
             className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-FakeStore.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60"
             onClick={getFakeStore}
           ></div>
-          <div>React, TypeScript e TailWind CSS</div>
+          <div className="flex flex-row">
+            <img
+              src="/react.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/typescript.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/tailwindcss.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+          </div>
         </div>
-        <div className="flex flex-row justify-center place-items-center gap-10 mt-10 lg:flex-col ">
+        <div className="flex flex-col justify-center place-items-center gap-10 mt-10">
           <div
             className="w-80 h-40 border-b-2 border-b-purple-800 bg-[url(/public/bg-SearchUser.png)] pt-2 trasition duration-300 hover:scale-110 sm:w-90 sm:h-60"
             onClick={getSearchUser}
           ></div>
-          <div>React, TypeScript e TailWind CSS</div>
+          <div className="flex flex-row">
+            <img
+              src="/react.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/typescript.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+            <img
+              src="/tailwindcss.svg"
+              alt=""
+              className="w-11 h-8 justify-center pl-4 pt-1.5"
+            />
+          </div>
         </div>
       </div>
       <h1 className="text-center text-3xl font-bold mt-50">Colaboração</h1>
@@ -179,6 +277,26 @@ const Home = () => {
         >
           <img
             src="/github.png"
+            alt=""
+            className="w-11 h-8 justify-center pl-4 pt-1.5"
+          />
+        </div>
+        <div
+          className="w-15 h-15 rounded-full border-b-2 bg-gray-900 text-center pt-2 trasition duration-75 hover:scale-110"
+          onClick={Linkedin}
+        >
+          <img
+            src="/linkedin.png"
+            alt=""
+            className="w-11 h-8 justify-center pl-4 pt-1.5"
+          />
+        </div>
+        <div
+          className="w-15 h-15 rounded-full border-b-2 bg-gray-900 text-center pt-2 trasition duration-75 hover:scale-110"
+          onClick={Telefone}
+        >
+          <img
+            src="/Telefone.png"
             alt=""
             className="w-11 h-8 justify-center pl-4 pt-1.5"
           />
