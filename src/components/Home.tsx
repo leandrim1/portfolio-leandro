@@ -46,7 +46,7 @@ const Home = () => {
         <div className="text-center text-balance items-center text-lg mt-6 text-gray-500 sm:text-xl">
           <span>
             Desenvolvedor Front-end com conhecimento em JavaScript,Typescript,
-            Tailwind, React.js, Material UI. Formado em um Curso de Tecnologia
+            Tailwind, React.js, Material UI, React Native, MySQL. Formado em um Curso de Tecnologia
             da Informação e Cursando Sistemas de Informação na Anhanguera
             Educacional.
           </span>
